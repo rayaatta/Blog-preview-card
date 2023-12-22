@@ -10,6 +10,7 @@
     font-size:1rem;
     font-family:'Figtree', sans-serif;
     box-sizing:border-box;
+    font-weight:600;
 }
 body {
     min-height:100vh;
@@ -51,9 +52,11 @@ button {
     width:auto;
     border:none;
     border-radius:.5rem;
+    font-weight:800;
 }
 h1 {
     margin-block:1rem;
+    font-weight:800;
 }
 p{
     color:var(--grey);
@@ -70,6 +73,7 @@ p{
     margin-left:1rem;
     padding-block:0.3rem;
     color :var(--black);
+    font-weight:800;
 }
 @media screen and (min-width:400px) {
     .card {
