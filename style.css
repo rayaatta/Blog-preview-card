@@ -1,35 +1,4 @@
-/*# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Yellow: hsl(47, 88%, 63%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 50%)
-- Black: hsl(0, 0%, 7%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
-- Weights: 600, 800
-*/
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
 :root {
     --yellow:hsl(47,88%, 63%);
     --grey:hsl(0, 0%, 50%);
@@ -38,7 +7,9 @@ The designs were created to the following widths:
 * {
     margin:0;
     padding:0;
-    font-family:sans-serif;
+    font-size:1rem;
+    font-family:'Figtree', sans-serif;
+    box-sizing:border-box;
 }
 body {
     min-height:100vh;
