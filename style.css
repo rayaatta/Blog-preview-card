@@ -19,6 +19,7 @@ body {
     align-items:center;
     justify-content:center;
     position: relative;
+    flex-direction:row;
 }
 .card {
     width:90%;
